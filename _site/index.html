@@ -970,7 +970,19 @@ Our riders’ commitment to service and civic engagement does not end when they 
   </section>
 </footer>
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/js/slick.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.slider').slick({
+          //infinite: false,
+          adaptiveHeight: true,
+          //lazyLoad: 'ondemand',
+          slidesToScroll: 1,
+          //centerMode: true,
+        });
+      });
+    </script>
   </body>
 
 </html>
